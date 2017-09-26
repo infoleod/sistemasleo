@@ -1,0 +1,22 @@
+Consignas:
+
+El cliente desea:
+
+- Migrar nuestro proyecto a Laravel para prever escalabilidad y mantenibilidad en el mismo, a su vez pudiendo desarrollar código a mayor velocidad.
+- Agregar la entidad principal de nuestro proyecto:
+	En el caso del e-commerce los usuarios deben poder crear, editar y eliminar productos. 
+	El sitio debe contar con alguna sección que muestre estos productos paginados.
+
+Se recomienda para la migración utilizar php artisan make:auth y poniendo el foco en realizar la migración de las vistas para luego agregar la funcionalidad nueva.
+
+Optativos:
+
+Para el e-commerce buscamos agregar
+	Buscador de productos
+	Que los productos puedan tener categorías (y tal vez sub-categorías)
+	Que los productos puedan tener marca
+	Generar una entidad "Carrito" donde se gestionen las compras. Un usuario podría agregar en su carrito muchos productos
+
+Para todos los trabajos se busca agregar alguna implementación en React
+
+FECHA DE PRESENTACIÓN: Martes, 15 de Agosto 2017 - 18:30hs.
