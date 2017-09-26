@@ -1,0 +1,317 @@
+/* los que estaban en el welcome */
+.erroresForm{
+  display: none!important;
+  font-size: 0.8em;
+  color: red!important;
+  font-weight: bold;
+}
+.full-height {
+    height: 6vh;
+}
+.logoFooter img{
+  filter: grayscale(100%);
+
+}
+#navbarCollapse{
+  background-color: #99ff99;
+}
+#bannerImageContainer{
+  padding: 0;
+}
+#panels{
+  margin-top: 2%;
+}
+#barCat{
+    background-color: #bff4bf !important;
+}
+#barCatPrin{
+  background-color: #99ff99;
+}
+.top-right {
+      background-color: #99ff99 !important;
+}
+.sectionPort{
+  margin-bottom: 2%;
+}
+#myIndex .sectionPort img{
+  margin-left: 15%!important;
+}
+#faqPrinc{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.navbar-header{
+  background-color: #99ff99!important;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+/* los que estaban en el welcome */
+#myRegister .registerForm {
+  margin-top: 5%;
+}
+
+#myLogin .loginForm {
+  margin-top: 5%;
+}
+
+#myFooter {
+    clear: both;
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#myFooter .row {
+
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+.img-circle{
+  width: 70%;
+}
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#myIndex .btn{
+  color: white;
+  background-color: #4fcd89;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+  margin-bottom: 2%;
+}
+ #myIndex  button:hover{
+   background-color: #389664!important;
+
+ }
+ #myIndex  a:hover{
+    text-decoration: none;
+ }
+ .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "+"; /* "play" icon */
+        float: right;
+        color: #4fcd89;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+.logoFooter img{
+    margin-right: 10%;
+    margin-top: 10%;
+}
+ @media screen and (max-width:988px){
+   .logoFooter img {
+       margin-left: -30%;
+       margin-top: 29%;
+       width: 85%
+   }
+
+ }
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #bannerIndex{
+      display: none;
+    }
+    .logoFooter img {
+      margin-left: 10%;
+      margin-top: 0;
+      width: 50%;
+    }
+ #headerMainLogo{
+   margin-left: 27%!important;
+ }
+}
+
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+
+
+/* links del header de login y registrate */
+.top-right {
+  top: 10px;
+}
+.top-right a {
+  padding: 0 15px;
+  letter-spacing: 0;
+}

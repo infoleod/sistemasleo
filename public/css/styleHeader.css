@@ -1,0 +1,120 @@
+.navbar-default {
+    margin-bottom: 0;
+}
+#headerMainLogo {
+  width: 100%;
+  max-width: 150px;
+  min-width: 50px;
+  display: block;
+  margin: 5px 20px;
+}
+#headerSearchBar {
+  width: calc(85vw - 300px);
+  height: 90px;
+  margin: 0;
+  padding: 0;
+}
+#headerSearchBar .input-group {
+  width: 100%;
+  padding-top: 45px;
+}
+#headerSearchBar span{
+  width: 14px;
+}
+#headerMainMenu {
+  height: 90px;
+}
+#headerMainMenu .dropdown .dropdown-toggle {
+  margin-top: 35px;
+  padding: 16px 22px;
+}
+#headerMainLogin {
+  margin-right: 20px;
+  background-color: rgb(196, 196, 196)
+}
+#headerMainLogin li a {
+  padding: 5px 10px;
+}
+
+
+@media only screen and (min-width : 0px) and (max-width:767px) {
+  #headerMainLogo {
+    width: 80%;
+    min-width: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  #headerMainMobileMenu {
+    padding: 15px;
+    margin-top: 16px;
+  }
+}
+
+
+@media only screen and (min-width : 0px) and (max-width:767px) {
+  .top-right {
+    position: relative;
+  }
+  #headerMainMenu {
+    height: auto;
+    margin: 7px 0px;
+  }
+  #headerMainMenu .dropdown .dropdown-toggle {
+    margin-top: 0;
+  }
+  .dropdown-menu {
+    padding: 0;
+  }
+  #headerMainMenu .dropdown a {
+    padding: 12px;
+  }
+  #headerMainMenu .dropdown li {
+    border-top: 1px solid rgb(175, 175, 175);
+  }
+  #headerMainMenu li {
+    background-color: lightgrey;
+    border-radius: 0;
+  }
+  #headerSearchBar {
+    width: 100%;
+    height: auto;
+    margin: 8px 0;
+  }
+  #headerSearchBar .input-group {
+    padding-top: 0;
+  }
+  #headerMainLogin {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #headerMainLogin div a {
+    display: block;
+    padding: 12px;
+  }
+  .navbar-form {
+    border: none;
+  }
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+  .top-right li {
+    border-top: 1px solid rgb(175, 175, 175);
+  }
+  #content-table-header {
+    margin-left: 0;
+    width: 100%;
+  }
+  .content-search {
+    top: 188px!important;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width:991px) {
+  #headerMainLogin {
+    margin-right: 0;
+  }
+  #navbarCollapse {
+    padding: 0;
+  }
+}
